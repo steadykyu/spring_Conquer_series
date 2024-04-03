@@ -18,5 +18,6 @@ public class AutoAppConfigTest {
 
         // then
         Assertions.assertThat(memberService).isInstanceOf(MemberService.class);
+
     }
 }
