@@ -14,7 +14,7 @@ public class OrderServiceImpl implements OrderService{
     private final DiscountPolicy discountPolicy;
 
     public OrderServiceImpl(MemberRepository memberRepository
-            ,@MainDiscountPolicy DiscountPolicy discountPolicy) {
+            ,DiscountPolicy discountPolicy) { //@MainDiscountPolicy
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
     }
